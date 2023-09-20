@@ -37,7 +37,7 @@ p long="%0x"%str                  # "11c8db1aab3cc525fdc564ffe1f7a9284a47de7e181
 p long.size                       # 68
 ```
 
-最后试下MD5编码
+根据题目试下MD5编码
 
 `p Digest::MD5.hexdigest(board.map{|c|c.join}.join) # "e4d1e2d669954894dcf152cdd1c8f11b"`
 
